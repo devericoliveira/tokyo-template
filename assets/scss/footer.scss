@@ -1,0 +1,19 @@
+footer {
+  display: grid;
+  place-items: center;
+  padding: 4.5rem 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}
