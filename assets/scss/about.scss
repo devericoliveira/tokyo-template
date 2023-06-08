@@ -1,0 +1,44 @@
+.about {
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about > div {
+  width: 8.125rem;
+  height: 8.125rem;
+  border-radius: 50%;
+  margin: 0 auto 2rem auto;
+}
+
+.about img {
+  display: block;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.about h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: $text;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: .875rem;
+  line-height: 1.5;
+  color: $text;
+}
+
+.about p + p {
+  margin-top: 1rem;
+}
+
+@media (max-width: 600px) {
+  .about {
+    margin-inline: 1rem;
+  }
+}
